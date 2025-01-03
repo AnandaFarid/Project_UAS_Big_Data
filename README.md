@@ -1,7 +1,7 @@
 # **<center>Final Project UAS Big Data</center>**
 
 
-![LOGO](https://ew.com/thmb/SpqVHh6pwaeIEqFO9hmVtMCiS4M=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Spotify-089b80c169d44fcfa110aebc6801289f.jpg)
+![LOGO](https://images.app.goo.gl/4aWkvpeZysZpxwncA)
 
 # <center>Eksplorasi Analisis Hotel </center>
 
