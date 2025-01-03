@@ -1,6 +1,6 @@
 # **Final Project UAS Big Data**
 
-![Project Logo](https://github.com/rfordatascience/tidytuesday/raw/main/data/2020/2020-02-11/hotels.jpg)
+![Project Logo](blog-7-strategi-meningkatkan-review-positif-dari-tamu-hotel-67-l.jpg)
 
 ---
 
