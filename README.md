@@ -34,7 +34,7 @@ Tujuan dari proyek ini adalah untuk mengungkap tren dan pola utama dalam perilak
 
 ## **Dataset**
 
-Dataset berasal dari proyek [TidyTuesday](https://github.com/rfordatascience/tidytuesday) dan dikumpulkan menggunakan paket [`hotels`](https://github.com/rfordatascience/tidytuesday/commits?author=jthomasmock). Data dirilis pada **21 Januari 2020** dan dapat diakses melalui tautan berikut:  
+Dataset berasal dari proyek [TidyTuesday](https://github.com/rfordatascience/tidytuesday) dan dikumpulkan menggunakan paket [`hotels`](https://github.com/rfordatascience/tidytuesday/blob/main/data/2020/2020-02-11/hotels.csv). Data dirilis pada **21 Januari 2020** dan dapat diakses melalui tautan berikut:  
 [hotels.csv](https://github.com/rfordatascience/tidytuesday/blob/main/data/2020/2020-02-11/hotels.csv).
 
 Paket `spotifyr` digunakan untuk mendapatkan metadata lagu dari API Spotify, mencakup informasi seperti popularitas lagu, nama artis, album, genre, serta atribut audio (danceability, energy, valence, dll.).
