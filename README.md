@@ -40,11 +40,11 @@ Dataset berasal dari proyek [TidyTuesday](https://github.com/rfordatascience/tid
 Paket `hotels` digunakan untuk mendapatkan hotel, is_canceled, customer_type, reservation_status, market_segment.
 
 ### Variabel dalam Dataset:
-Dataset ini terdiri dari 19 variabel, termasuk:
-- `track_id`, `track_name`, `track_artist`: Identifikasi dan informasi dasar mengenai lagu.
-- `track_popularity`: Popularitas lagu berdasarkan nilai antara 0-100.
-- `playlist_name`, `playlist_genre`: Nama playlist dan genre playlist terkait.
-- `danceability`, `energy`, `acousticness`, dan lainnya: Atribut audio yang menggambarkan karakteristik musik lagu seperti keterpaduan untuk berdansa, energi, keaslian suara, dan lainnya.
+Dataset ini terdiri dari 32 variabel, termasuk:
+- `hotel`: Jenis hotel (City Hotel atau Resort Hotel).
+- `is_canceled`: Status pemesanan (0 = Tidak, 1 = Ya).
+- `lead_time`: Jumlah hari antara pemesanan dan tanggal kedatangan.
+- `arrival_date_year`,: Tahun Kedatangan
 
 ---
 
