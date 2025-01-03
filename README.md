@@ -1,129 +1,156 @@
-# **<center>Final Project UAS Big Data</center>**
+# **Final Project UAS Big Data**
 
-
-![LOGO](blog-7-strategi-meningkatkan-review-positif-dari-tamu-hotel-67-l.jpg)
-
-# <center>Eksplorasi Analisis Hotel </center>
-
-## **Table of Contents**
-
-1. [🏷️ **Title**](#Title)
-2. [🌟 **Overview**](#Overview)
-3. [🎯 **Objective**](#Objective)
-4. [📊 **Dataset**](#Dataset)
-5. [🔍 **Methodology**](#Methodology)
-6. [💡 **Insights**](#Insights)
-7. [⚙️ **Dependencies**](#Dependencies)
-8. [🚀 **Usage**](#Usage)
-9. [👥 **Team Members**](#Team-Members)
-10. [📂 **Repository Structure**](#Repository-Structure)
-11. [📚 **References**](#References)
-
-
-[🌟 **Overview**](#Overview)
-
-Proyek ini bertujuan untuk mengeksplorasi dan menganalisis data lagu-lagu Spotify dengan fokus pada genre, fitur audio, dan tren yang muncul. Melalui eksplorasi data (EDA), analisis ini bertujuan untuk mengidentifikasi pola-pola musik yang relevan dan memberikan wawasan tentang hubungan antar genre dan fitur yang mempengaruhi popularitas lagu. Sebagai tambahan, K-Nearest Neighbors (KNN) digunakan untuk memberikan rekomendasi berdasarkan pola-pola musik yang terdeteksi, meskipun fokus utama dari proyek ini adalah analisis eksplorasi data dan pemahaman karakteristik musik seperti danceability, energy, dan acousticness.
+![Project Logo](https://github.com/rfordatascience/tidytuesday/raw/main/data/2020/2020-02-11/hotels.jpg)
 
 ---
 
-[🎯 **Objective**](#Objective)
-
-Tujuan dari proyek ini adalah untuk mengungkap tren dan pola utama dalam perilaku pelanggan, mengidentifikasi faktor-faktor yang memengaruhi pembatalan, dan memberikan wawasan berdasarkan data untuk mengoptimalkan operasi hotel.
+## **Exploratory Analysis of Hotel Data**
 
 ---
 
-[📊 **Dataset**](#Dataset)
+### **Table of Contents**
 
-Dataset berasal dari proyek [TidyTuesday](https://github.com/rfordatascience/tidytuesday) dan dikumpulkan menggunakan paket [`hotels`](https://github.com/rfordatascience/tidytuesday/blob/main/data/2020/2020-02-11/hotels.csv). Data dirilis pada **21 Januari 2020** dan dapat diakses melalui tautan berikut:  
-[hotels.csv](https://github.com/rfordatascience/tidytuesday/blob/main/data/2020/2020-02-11/hotels.csv).
-
-Paket `hotels` digunakan untuk mendapatkan hotel, is_canceled, customer_type, reservation_status, market_segment.
-
-### Variabel dalam Dataset:
-Dataset ini terdiri dari 32 variabel, termasuk:
-- `hotel`: Jenis hotel (City Hotel atau Resort Hotel).
-- `is_canceled`: Status pemesanan (0 = Tidak, 1 = Ya).
-- `lead_time`: Jumlah hari antara pemesanan dan tanggal kedatangan.
-- `arrival_date_year`,: Tahun Kedatangan
-
----
-
-## **Methodology**
-
-1. Data import and cleaning.
-2. Exploratory Data Analysis (EDA).
-
-[💡 **Insights**](#Insights)
-
-[Summarize the key findings from your analysis, highlighting important patterns or trends.]
+1. [🔱 Project Title](#project-title)
+2. [🌟 Overview](#overview)
+3. [🎯 Objectives](#objectives)
+4. [📊 Dataset](#dataset)
+5. [🔍 Methodology](#methodology)
+6. [💡 Key Insights](#key-insights)
+7. [⚙️ Dependencies](#dependencies)
+8. [🚀 Getting Started](#getting-started)
+9. [👥 Team Members](#team-members)
+10. [📂 Repository Structure](#repository-structure)
+11. [📚 References](#references)
 
 ---
 
-[⚙️ **Dependencies**](#Dependencies)
+### **🔱 Project Title**
 
-Proyek ini menggunakan beberapa dependensi untuk menjalankan analisis. Berikut adalah daftar dependensi yang diperlukan:
-
-pandas, versi 1.4.3
-openpyxl, versi 3.0.10
-numpy, versi 1.23.0
-numpy-stl, versi 2.17.1
-matplotlib, versi 3.5.2
-ipympl, versi 0.9.1
-jupyterlab, versi 3.4.4
-ipywidgets, versi 7.7.1
-tqdm, versi 4.64.0
-Catatan: Belum diuji sepenuhnya, namun bisa digunakan di lingkungan Python.
-
-[🚀 **Usage**](#Usage)
-[Write this section yourself.]
-1. Clone Repository
-Clone repository ini :
-    
-    ```
-    git clone (https://github.com/AnandaFarid/Project_UAS_Big_Data)
-    ```
-    ```
-    cd Project_UAS_Big_Data
-    ```
-2. Install Dependencies
-Install paket yang dibutuhkan:
-    ```
-    pip install -r requirements.txt
-    ```
-3. Jalankan Jupyter Notebook
-Buka file analisisbigdata.ipynb dengan Jupyter:
-    ```
-    jupyter notebook UAS_BIG_DATA.ipynb
-    ```
-4. Dataset
-Pastikan file `hotels.csv` ada di direktori yang sama dengan notebook.
-
-5. Jelajahi Analisis
-Ikuti langkah-langkah di notebook untuk pembersihan dan analisis data.
+**Exploratory Analysis of Hotel Data: Trends, Patterns, and Optimizations**
 
 ---
 
-[👥 **Team Members**](#Team-Members)
+### **🌟 Overview**
 
-   * [Ananda Farid Syahputra](https://github.com/) 
-   * [Sujimmy](https://github.com/) 
-   * [Sultan Yusuf Brian P](https://github.com/)
+This project delves into hotel data to uncover patterns and trends in customer behavior, booking cancellations, and operational efficiency. Using Exploratory Data Analysis (EDA), we aim to generate actionable insights to enhance hotel operations and customer satisfaction. The analysis incorporates advanced visualization and recommendation techniques to explore key variables such as booking cancellations, lead time, and customer segments.
 
 ---
 
-[📂 **Repository Structure**](#Repository-Structure)
+### **🎯 Objectives**
 
-- `hotels.csv`: Dataset berisi data lagu-lagu Spotify, termasuk informasi seperti nama lagu, artis, genre, durasi, dan metrik lainnya yang digunakan untuk analisis.
-- `.ipynb`: Jupyter Notebook yang berisi langkah-langkah analisis data, mulai dari pembersihan data hingga eksplorasi dan visualisasi untuk menemukan wawasan yang relevan dari dataset.
-- `README.md`: Pengantar dan gambaran umum proyek, termasuk instruksi penggunaan, tujuan analisis, serta bagaimana cara menjalankan dan mereplikasi analisis ini.
----
-
-[📚 **References**](#References)
-
-- Dataset: [TidyTuesday](https://github.com/rfordatascience/tidytuesday)
-- Additional Resources: 
-    * https://github.com/SPARC-FAIR-Codeathon/QuiltedTutorials
-    * https://github.com/SPARC-FAIR-Codeathon/KnowMore
-
+- Identify key trends and patterns in customer behavior.
+- Analyze factors influencing booking cancellations.
+- Provide data-driven recommendations to improve hotel operations.
 
 ---
+
+### **📊 Dataset**
+
+The dataset used in this project is sourced from [TidyTuesday](https://github.com/rfordatascience/tidytuesday) and consists of hotel booking data released on **January 21, 2020**. The dataset can be accessed here: [hotels.csv](https://github.com/rfordatascience/tidytuesday/blob/main/data/2020/2020-02-11/hotels.csv).
+
+#### Key Variables:
+
+- **hotel**: Type of hotel (City Hotel or Resort Hotel).
+- **is_canceled**: Booking status (0 = Not Canceled, 1 = Canceled).
+- **lead_time**: Number of days between booking and arrival.
+- **customer_type**: Customer category (e.g., transient, group).
+- **market_segment**: Source of bookings (e.g., direct, online).
+- **reservation_status**: Final status (e.g., canceled, no-show, checked-out).
+
+---
+
+### **🔍 Methodology**
+
+1. **Data Import and Cleaning:** Importing the dataset and handling missing values.
+2. **Exploratory Data Analysis (EDA):** Identifying patterns, trends, and anomalies in the data.
+3. **Visualization:** Creating visual representations for easier interpretation of insights.
+4. **Recommendation System:** Utilizing patterns for customer behavior predictions.
+
+---
+
+### **💡 Key Insights**
+
+- **Cancellation Rates:** Resort Hotels have higher cancellation rates compared to City Hotels.
+- **Lead Time:** Bookings with longer lead times are more likely to be canceled.
+- **Customer Types:** Transient customers form the majority of bookings but also have higher cancellation rates.
+- **Seasonal Trends:** Higher demand and lower cancellations observed during peak holiday seasons.
+
+---
+
+### **⚙️ Dependencies**
+
+The following Python libraries are required to run the project:
+
+- `pandas` (1.4.3)
+- `numpy` (1.23.0)
+- `matplotlib` (3.5.2)
+- `seaborn` (0.11.2)
+- `jupyterlab` (3.4.4)
+- `tqdm` (4.64.0)
+
+Dependencies can be installed using the provided `requirements.txt` file.
+
+---
+
+### **🚀 Getting Started**
+
+#### Clone the Repository
+
+```bash
+$ git clone https://github.com/AnandaFarid/Project_UAS_Big_Data
+$ cd Project_UAS_Big_Data
+```
+
+#### Install Dependencies
+
+```bash
+$ pip install -r requirements.txt
+```
+
+#### Run the Jupyter Notebook
+
+```bash
+$ jupyter notebook UAS_BIG_DATA.ipynb
+```
+
+Ensure the `hotels.csv` file is in the same directory as the notebook.
+
+#### Explore the Analysis
+
+Follow the steps outlined in the notebook to:
+- Clean the dataset.
+- Perform EDA.
+- Visualize key patterns and trends.
+
+---
+
+### **👥 Team Members**
+
+- **[Ananda Farid Syahputra](https://github.com/AnandaFarid)**  
+- **[Sujimmy](https://github.com/Sujimmy)**  
+- **[Sultan Yusuf Brian P](https://github.com/SultanYusuf)**
+
+---
+
+### **📂 Repository Structure**
+
+```plaintext
+|-- Project_UAS_Big_Data/
+    |-- hotels.csv                # Dataset
+    |-- UAS_BIG_DATA.ipynb        # Jupyter Notebook for analysis
+    |-- requirements.txt          # Required dependencies
+    |-- README.md                 # Project documentation
+```
+
+---
+
+### **📚 References**
+
+- [TidyTuesday GitHub Repository](https://github.com/rfordatascience/tidytuesday)
+- [Matplotlib Documentation](https://matplotlib.org/)
+- [Pandas Documentation](https://pandas.pydata.org/)
+
+---
+
+**Thank you for exploring our project!**
+
