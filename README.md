@@ -73,3 +73,38 @@ jupyterlab, versi 3.4.4
 ipywidgets, versi 7.7.1
 tqdm, versi 4.64.0
 Catatan: Belum diuji sepenuhnya, namun bisa digunakan di lingkungan Python.
+
+[🚀 **Usage**](#Usage)
+[Write this section yourself.]
+1. Clone Repository
+Clone repository ini :
+    
+    ```
+    git clone (https://github.com/AnandaFarid/Project_UAS_Big_Data)
+    ```
+    ```
+    cd Project_UAS_Big_Data
+    ```
+2. Install Dependencies
+Install paket yang dibutuhkan:
+    ```
+    pip install -r requirements.txt
+    ```
+3. Jalankan Jupyter Notebook
+Buka file analisisbigdata.ipynb dengan Jupyter:
+    ```
+    jupyter notebook UAS_BIG_DATA.ipynb
+    ```
+4. Dataset
+Pastikan file `hotels.csv` ada di direktori yang sama dengan notebook.
+
+5. Jelajahi Analisis
+Ikuti langkah-langkah di notebook untuk pembersihan dan analisis data.
+
+---
+
+[👥 **Team Members**](#Team-Members)
+
+   * [Ananda Farid Syahputra](https://github.com/) 
+   * [Sujimmy](https://github.com/) 
+   * [Haidar Zakki Jumali](https://github.com/) 
