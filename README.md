@@ -54,11 +54,13 @@ Dataset ini terdiri dari 32 variabel, termasuk:
 2. Exploratory Data Analysis (EDA).
 
 [💡 **Insights**](#Insights)
+
 [Summarize the key findings from your analysis, highlighting important patterns or trends.]
 
 ---
 
 [⚙️ **Dependencies**](#Dependencies)
+
 Proyek ini menggunakan beberapa dependensi untuk menjalankan analisis. Berikut adalah daftar dependensi yang diperlukan:
 
 pandas, versi 1.4.3
