@@ -107,4 +107,23 @@ Ikuti langkah-langkah di notebook untuk pembersihan dan analisis data.
 
    * [Ananda Farid Syahputra](https://github.com/) 
    * [Sujimmy](https://github.com/) 
-   * [Haidar Zakki Jumali](https://github.com/) 
+   * [Sultan Yusuf Brian P](https://github.com/)
+
+---
+
+[📂 **Repository Structure**](#Repository-Structure)
+
+- `hotels.csv`: Dataset berisi data lagu-lagu Spotify, termasuk informasi seperti nama lagu, artis, genre, durasi, dan metrik lainnya yang digunakan untuk analisis.
+- `.ipynb`: Jupyter Notebook yang berisi langkah-langkah analisis data, mulai dari pembersihan data hingga eksplorasi dan visualisasi untuk menemukan wawasan yang relevan dari dataset.
+- `README.md`: Pengantar dan gambaran umum proyek, termasuk instruksi penggunaan, tujuan analisis, serta bagaimana cara menjalankan dan mereplikasi analisis ini.
+---
+
+[📚 **References**](#References)
+
+- Dataset: [TidyTuesday](https://github.com/rfordatascience/tidytuesday)
+- Additional Resources: 
+    * https://github.com/SPARC-FAIR-Codeathon/QuiltedTutorials
+    * https://github.com/SPARC-FAIR-Codeathon/KnowMore
+
+
+---
